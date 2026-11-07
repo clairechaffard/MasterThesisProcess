@@ -1,0 +1,9 @@
+---
+const { title, href, meta, excerpt } = Astro.props;
+---
+<article class="entry-card">
+  <p class="eyebrow">{meta}</p>
+  <h3><a href={href}>{title}</a></h3>
+  {excerpt && <p class="muted">{excerpt}</p>}
+  <a class="read-link" href={href}>Open entry ↗</a>
+</article>

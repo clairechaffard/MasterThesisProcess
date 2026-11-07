@@ -1,0 +1,16 @@
+---
+const links = [
+  { href: '/', label: 'Home' },
+  { href: '/notes', label: 'Notes' },
+  { href: '/references', label: 'References' },
+  { href: '/archive', label: 'Visual archive' },
+  { href: '/moodboards', label: 'Moodboards' },
+  { href: '/about', label: 'About' },
+];
+---
+<header class="site-header">
+  <a class="wordmark" href="/">FIELDNOTES<span> / MASTER THESIS</span></a>
+  <nav aria-label="Main navigation">
+    {links.map((link) => <a href={link.href}>{link.label}</a>)}
+  </nav>
+</header>

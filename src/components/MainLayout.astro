@@ -1,0 +1,22 @@
+---
+import Navigation from './Navigation.astro';
+import '../styles/global.css';
+const { title = 'Fieldnotes — Master Thesis' } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A living archive of research, references and visual material." />
+    <title>{title}</title>
+  </head>
+  <body>
+    <Navigation />
+    <main><slot /></main>
+    <footer class="site-footer">
+      <span>Research in progress</span>
+      <span>Updated as the research evolves · 2026—2027</span>
+    </footer>
+  </body>
+</html>

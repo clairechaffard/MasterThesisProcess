@@ -1,0 +1,16 @@
+---
+import { getCollection } from 'astro:content';
+import MainLayout from '../components/MainLayout.astro';
+const entries = await getCollection('references');
+---
+<MainLayout title="References — Fieldnotes">
+  <section class="page-intro"><p class="eyebrow">02 / Library</p><h1>References<span>.</span></h1><p class="intro">Artists, books, films, articles, projects and other points of departure.</p></section>
+  <div class="card-grid">
+    {entries.map((entry) => <article class="entry-card">
+      <p class="eyebrow">{entry.data.kind}{entry.data.creator ? ` · ${entry.data.creator}` : ''}</p>
+      <h3>{entry.data.title}</h3>
+      {entry.data.note && <p class="muted">{entry.data.note}</p>}
+      {entry.data.url && <a class="read-link" href={entry.data.url} target="_blank" rel="noreferrer">Visit source ↗</a>}
+    </article>)}
+  </div>
+</MainLayout>

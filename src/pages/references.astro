@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import MainLayout from '../components/MainLayout.astro';
 const entries = await getCollection('references');
 ---
-<MainLayout title="References — Fieldnotes">
+<MainLayout title="References">
   <section class="page-intro"><p class="eyebrow">02 / Library</p><h1>References<span>.</span></h1><p class="intro">Artists, books, films, articles, projects and other points of departure.</p></section>
   <div class="card-grid">
     {entries.map((entry) => <article class="entry-card">

@@ -12,7 +12,7 @@ const refs = (await getCollection('references')).slice(0,3);
 <MainLayout>
   <section class="hero">
     <p class="eyebrow">2026-2027</p>
-    <h1>Master's thesis<br/><em> Claire and her Journey in Media Design </em></h1>
+    <h1>Master's thesis<br/><em class="hero-subtitle"> Claire and her Journey in Media Design </em></h1>
     <p class="intro"></p>
     <a class="read-link" href={`${base}about`}>About this research ↗</a>
   </section>
@@ -20,7 +20,7 @@ const refs = (await getCollection('references')).slice(0,3);
   <section class="section-block">
     <div class="section-heading"><p class="eyebrow">01 / Designing the question</p><a href={`${base}topic/`}>See the process ↗</a></div>
     <div class="card-grid">
-      {notes.map((entry) => <EntryCard title={entry.data.title} href={`${base}notes/${entry.slug}`} meta={`${entry.data.category} · ${entry.data.date.toLocaleDateString('en-GB')}`} excerpt={entry.data.excerpt} />)}
+      {notes.map((entry) => <EntryCard title={entry.data.title} href={`${base}topic/${entry.slug}`} meta={`${entry.data.category} · ${entry.data.date.toLocaleDateString('en-GB')}`} excerpt={entry.data.excerpt} />)}
     </div>
   </section>
 

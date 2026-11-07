@@ -1,8 +1,8 @@
 ---
-title: "Unseeing space imagery"
+title: "Unseeing space imagery by Joël Vacheron"
 date: 2026-10-14
 category: "Research notes"
-excerpt: ""
+excerpt: "Voyage through diff worlds"
 tags: ["References", "Spaces"]
 ---
 

@@ -11,6 +11,17 @@ const notes = defineCollection({
   }),
 });
 
+const topic = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    date: z.coerce.date(),
+    category: z.string().default('Research'),
+    excerpt: z.string().optional(),
+    tags: z.array(z.string()).default([]),
+  }),
+});
+
 const references = defineCollection({
   type: 'content',
   schema: z.object({
@@ -34,4 +45,4 @@ const moodboards = defineCollection({
   }),
 });
 
-export const collections = { notes, references, moodboards };
+export const collections = { notes, topic, references, moodboards };

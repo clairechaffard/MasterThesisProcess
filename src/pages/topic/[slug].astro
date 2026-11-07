@@ -1,0 +1,21 @@
+---
+import { getCollection, render } from 'astro:content';
+import MainLayout from '../../components/MainLayout.astro';
+
+export async function getStaticPaths() {
+  return (await getCollection('topic')).map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+<MainLayout title={`${entry.data.title} • Research process`}>
+  <article class="prose">
+    <p class="eyebrow">{entry.data.category} · {entry.data.date.toLocaleDateString('en-GB')}</p>
+    <h1>{entry.data.title}</h1>
+    <Content />
+  </article>
+</MainLayout>

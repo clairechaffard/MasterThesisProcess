@@ -1,14 +1,24 @@
 ---
+import { getCollection } from 'astro:content';
 import MainLayout from '../components/MainLayout.astro';
+import EntryCard from '../components/EntryCard.astro';
 const base = import.meta.env.BASE_URL.endsWith('/')
   ? import.meta.env.BASE_URL
   : `${import.meta.env.BASE_URL}/`;
+const entries = (await getCollection('topic')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 <MainLayout title="Designing the question">
   <section class="page-intro">
     <p class="eyebrow">01 / Research process</p>
     <h1>Designing the question<span>.</span></h1>
     <p class="intro">A space to trace the path from an initial curiosity to a focused research question. The direction can change as new ideas, references and observations emerge.</p>
+  </section>
+
+  <section class="section-block">
+    <div class="section-heading"><p class="eyebrow">Research notes</p></div>
+    <div class="card-grid">
+      {entries.map((entry) => <EntryCard title={entry.data.title} href={`${base}topic/${entry.slug}`} meta={`${entry.data.category} · ${entry.data.date.toLocaleDateString('en-GB')}`} excerpt={entry.data.excerpt} />)}
+    </div>
   </section>
 
   <div class="entry-list">

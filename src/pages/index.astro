@@ -3,7 +3,9 @@ import { getCollection } from 'astro:content';
 import MainLayout from '../components/MainLayout.astro';
 import EntryCard from '../components/EntryCard.astro';
 
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
 const notes = (await getCollection('notes')).sort((a,b) => b.data.date.valueOf() - a.data.date.valueOf()).slice(0,3);
 const refs = (await getCollection('references')).slice(0,3);
 ---

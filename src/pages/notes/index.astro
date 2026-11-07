@@ -1,7 +1,9 @@
 ---
 import { getCollection } from 'astro:content';
 import MainLayout from '../../components/MainLayout.astro';
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
 const entries = (await getCollection('notes')).sort((a,b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 <MainLayout title="Notes — Fieldnotes">

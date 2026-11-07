@@ -13,7 +13,7 @@ main{width:min(1120px,90vw);margin:0 auto}
 .eyebrow{color:#777;text-transform:uppercase}
 h1{font-size:clamp(48px,8vw,104px);line-height:.98;letter-spacing:-.065em;font-weight:500;margin:24px 0}
 h1 em{font-family:'fantasy',serif;font-weight:250}
-.hero h1 .hero-subtitle{font-size:66.6667%}
+.hero h1 .hero-subtitle{font-size:200}
 h1 span{color:#c45b3d}
 .intro{font-size:18px;line-height:1.65;color:#68665f;max-width:590px}
 .read-link{display:inline-block;margin-top:14px;text-transform:uppercase}

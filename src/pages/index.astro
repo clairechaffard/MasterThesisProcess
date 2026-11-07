@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import MainLayout from '../components/MainLayout.astro';
 import EntryCard from '../components/EntryCard.astro';
 
+const base = import.meta.env.BASE_URL;
 const notes = (await getCollection('notes')).sort((a,b) => b.data.date.valueOf() - a.data.date.valueOf()).slice(0,3);
 const refs = (await getCollection('references')).slice(0,3);
 ---
@@ -11,26 +12,26 @@ const refs = (await getCollection('references')).slice(0,3);
     <p class="eyebrow">2026—2027</p>
     <h1>Master's thesis<br/><em> Claire in Media Design </em></h1>
     <p class="intro"></p>
-    <a class="read-link" href="/about">About this research ↗</a>
+    <a class="read-link" href={`${base}about`}>About this research ↗</a>
   </section>
 
   <section class="section-block">
-    <div class="section-heading"><p class="eyebrow">01 / Recent writing</p><a href="/notes">All notes ↗</a></div>
+    <div class="section-heading"><p class="eyebrow">01 / Recent writing</p><a href={`${base}notes`}>All notes ↗</a></div>
     <div class="card-grid">
-      {notes.map((entry) => <EntryCard title={entry.data.title} href={`/notes/${entry.slug}`} meta={`${entry.data.category} · ${entry.data.date.toLocaleDateString('en-GB')}`} excerpt={entry.data.excerpt} />)}
+      {notes.map((entry) => <EntryCard title={entry.data.title} href={`${base}notes/${entry.slug}`} meta={`${entry.data.category} · ${entry.data.date.toLocaleDateString('en-GB')}`} excerpt={entry.data.excerpt} />)}
     </div>
   </section>
 
   <section class="section-block">
-    <div class="section-heading"><p class="eyebrow">02 / Collected references</p><a href="/references">All references ↗</a></div>
+    <div class="section-heading"><p class="eyebrow">02 / Collected references</p><a href={`${base}references`}>All references ↗</a></div>
     <div class="card-grid">
-      {refs.map((entry) => <EntryCard title={entry.data.title} href={`/references/${entry.slug}`} meta={entry.data.kind} excerpt={entry.data.note} />)}
+      {refs.map((entry) => <EntryCard title={entry.data.title} href={`${base}references/${entry.slug}`} meta={entry.data.kind} excerpt={entry.data.note} />)}
     </div>
   </section>
 
   <section class="portal-grid">
-    <a href="/archive"><span>03</span><strong>Visual archive</strong><small>Images, screenshots, traces</small></a>
-    <a href="/moodboards"><span>04</span><strong>Moodboards</strong><small>Visual constellations & themes</small></a>
-    <a href="/about"><span>05</span><strong>Research</strong><small>Questions, methods, directions</small></a>
+    <a href={`${base}archive`}><span>03</span><strong>Visual archive</strong><small>Images, screenshots, traces</small></a>
+    <a href={`${base}moodboards`}><span>04</span><strong>Moodboards</strong><small>Visual constellations & themes</small></a>
+    <a href={`${base}about`}><span>05</span><strong>Research</strong><small>Questions, methods, directions</small></a>
   </section>
 </MainLayout>

@@ -1,11 +1,12 @@
 ---
 import { getCollection } from 'astro:content';
 import MainLayout from '../../components/MainLayout.astro';
+const base = import.meta.env.BASE_URL;
 const entries = (await getCollection('notes')).sort((a,b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 <MainLayout title="Notes — Fieldnotes">
   <section class="page-intro"><p class="eyebrow">01 / Notebook</p><h1>Notes<span>.</span></h1><p class="intro">Course notes, talks, readings, conversations and thoughts in progress.</p></section>
   <div class="entry-list">
-    {entries.map((entry) => <article><p class="eyebrow">{entry.data.category} · {entry.data.date.toLocaleDateString('en-GB')}</p><h2><a href={`/notes/${entry.slug}`}>{entry.data.title}</a></h2><p class="muted">{entry.data.excerpt}</p></article>)}
+    {entries.map((entry) => <article><p class="eyebrow">{entry.data.category} · {entry.data.date.toLocaleDateString('en-GB')}</p><h2><a href={`${base}notes/${entry.slug}`}>{entry.data.title}</a></h2><p class="muted">{entry.data.excerpt}</p></article>)}
   </div>
 </MainLayout>

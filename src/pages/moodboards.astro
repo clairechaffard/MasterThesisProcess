@@ -4,7 +4,7 @@ import MainLayout from '../components/MainLayout.astro';
 const boards = await getCollection('moodboards');
 ---
 <MainLayout title="Moodboards">
-  <section class="page-intro"><p class="eyebrow">04 / Visual thinking</p><h1>Moodboards<span>.</span></h1><p class="intro">Image groups organised around themes, atmospheres, questions or emerging ideas.</p></section>
+  <section class="page-intro"><p class="eyebrow">04 / Visual thinking</p><h1>Moodboards<span>.</span></h1><p class="intro">Inspiration</p></section>
   <div class="card-grid">
     {boards.map((board) => <article class="entry-card"><p class="eyebrow">MOODBOARD</p><h3>{board.data.title}</h3><p class="muted">{board.data.description}</p><div class="tag-row">{board.data.tags.map(tag => <span>{tag}</span>)}</div><div class="mini-image-grid">{board.data.images.map(img => <img src={img} alt="" loading="lazy" />)}</div></article>)}
   </div>

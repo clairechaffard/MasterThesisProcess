@@ -1,7 +1,7 @@
 ---
 title: "Treister's Tarot by Joël Vacheron"
 date: 2026-09-30
-category: "Note journal"
+category: "Course notes"
 excerpt: ""
 tags: ["design research", "society pov"]
 ---

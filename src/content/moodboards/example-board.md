@@ -1,8 +1,8 @@
 ---
-title: "Atmospheres / working title"
-description: "A short description of the visual direction or question behind this collection."
+title: "Moodboard 1"
+description: "First inspiration"
 images:
   - "/images/placeholder-01.jpg"
   - "/images/placeholder-02.jpg"
-tags: ["texture", "memory", "space"]
+tags: ["Fx", "graphics", "cinema"]
 ---

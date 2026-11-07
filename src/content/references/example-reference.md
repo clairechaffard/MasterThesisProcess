@@ -1,9 +1,9 @@
 ---
-title: "Example reference"
-creator: "Artist / author"
-kind: "Artwork"
+title: "Reference"
+creator: "who ?"
+kind: "what ? "
 url: "https://example.com"
-note: "Why this reference matters to the research, what to look at, and what questions it raises."
+note: "ihihihih"
 ---
 
 Add longer observations about this reference here.

@@ -1,7 +1,7 @@
 ---
 title: "Alterated realities and real alternatives - by André Ourednik "
 date: 2026-11-04
-category: "Research notes"
+category: "Course notes"
 excerpt: "Technologies as medium of reality"
 tags: ["Data learning", "machine learning"]
 ---

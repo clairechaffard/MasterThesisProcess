@@ -9,9 +9,9 @@ const entries = (await getCollection('topic')).sort((a, b) => b.data.date.valueO
 ---
 <MainLayout title="Designing the question">
   <section class="page-intro">
-    <p class="eyebrow">01 / Research process</p>
+    <p class="eyebrow">01 / Research topic  process </p>
     <h1>Designing the question<span>.</span></h1>
-    <p class="intro">A space to trace the path from an initial curiosity to a focused research question. The direction can change as new ideas, references and observations emerge.</p>
+    <p class="intro">A space where you can find all the evolution in my thinking during the designing of my thesis topic, problematics.</p>
   </section>
 
   <section class="section-block">
@@ -21,34 +21,11 @@ const entries = (await getCollection('topic')).sort((a, b) => b.data.date.valueO
     </div>
   </section>
 
-  <div class="entry-list">
-    <article>
-      <p class="eyebrow">01 / Starting point</p>
-      <h2>What is drawing my attention?</h2>
-      <p class="muted">Collect the interests, experiences or observations that make this subject worth exploring. What feels unresolved or keeps coming back?</p>
-    </article>
-    <article>
-      <p class="eyebrow">02 / Exploring the subject</p>
-      <h2>What do I want to understand?</h2>
-      <p class="muted">Note questions, tensions and possible directions. Which parts feel most specific, meaningful or open to investigation?</p>
-    </article>
-    <article>
-      <p class="eyebrow">03 / Shaping the question</p>
-      <h2>What could I investigate?</h2>
-      <p class="muted">Try working versions of the research question. Keep track of what each version includes, leaves out and makes possible.</p>
-    </article>
-    <article>
-      <p class="eyebrow">04 / Next steps</p>
-      <h2>What should I follow up?</h2>
-      <p class="muted">List the conversations, readings, references or experiments that could help clarify the direction.</p>
-    </article>
-  </div>
-
   <section class="section-block">
     <div class="section-heading">
       <p class="eyebrow">Continue exploring</p>
       <a href={`${base}notes/`}>Open all notes ↗</a>
     </div>
-    <p class="muted">Use the notebook to collect dated observations and reflections as the research question develops.</p>
+    <p class="muted">Look in the notebook to see all the process, the intervenant, the meets I did during this journey.</p>
   </section>
 </MainLayout>

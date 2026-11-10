@@ -1,7 +1,7 @@
 ---
 title: "Interview Wendy Chun"
 date: 2026-10-13
-category: "Research notes"
+category: "Reading notes"
 excerpt: "Yourself map"
 tags: ["Data learning", "machine learning"]
 ---

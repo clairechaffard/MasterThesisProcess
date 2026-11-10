@@ -6,3 +6,6 @@ excerpt: "Courses about ia data responsabilities"
 tags: ["Data learning", "machine learning"]
 ---
 
+
+
+![help](resources/image.png)

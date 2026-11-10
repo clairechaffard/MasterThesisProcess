@@ -8,3 +8,6 @@ tags: ["starting point", "design research"]
 
 ## Exercices : 
 
+![first](resources/image.png)
+![second](resources/image-1.png)
+![third](resources/image-2.png)

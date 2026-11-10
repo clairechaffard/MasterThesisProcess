@@ -8,16 +8,16 @@ tags: ["Data learning", "machine learning"]
 
 # Alterated realities and real alternatives - by André Ourednik 
 
-
+[André Ourednik](https://ourednik.info/)
 Perspectives : - geography & GIS - Agent based modeling - Text & data mining - Philosophy 
 
 * Polyharmonies . experience quadriphonique de l'harmonie des polyèdres - expo collective Renaissance 2.0 Genève  
 
-* Robopoiesis book 
+* [Robopoiesis book](https://ourednik.info/en/textes/robopoieses_2e)
 
 Difference between a book written using AI, and a book based on a lived experience of the body, is that with AI, the author no longer crosses the universe, but only the simulacrum of its numerical model. 
 
-* Article: Là où la base de données d'une Ia porpose une omniscience 
+*[ Article: Là où la base de données d'une Ia porpose une omniscience](https://www.letemps.ch/opinions/l-affaire-thelyson-orelien-la-ou-la-base-de-donnees-d-une-ia-propose-l-omniscience-l-auteur-humain-propose-une-pensee)
 
 ---  
 
@@ -105,12 +105,14 @@ a psychological phenomenon where a person's behavior/performance in a virtual en
 --- 
 
 wheel of existence :  
-
+![wheel](resources/image16.png)
 Wheel of Existence | Project Himalayan Art 
 
  ---
 
- Alchemical journey, 7 planets 
+ Alchemical journey, 7 planets : 
+ ![seven](resources/image17.png)
+ ![seveen](resources/image18.png)
 
 The Alchemical Journey: Symbolism and Stages of Transformation in the 
 
@@ -120,9 +122,8 @@ In alchemy, when the ancients spoke of the seven planets, they were not referrin
 
 * Koumokuten, buddhist guardian, Hall, Adam, Todaiji temple : protect the demons from entering inside, 
 
+![photo](resources/image19.png)
 Todaiji Temple - Buddhist Guardian, Koumokuten | QUT Digital Collections
-
- 
 
  --- 
 
@@ -139,7 +140,7 @@ local positioning  type pattern / type complex object
 global positioning : sat  
 
  * Carta Marina, Oiaus Magnus 1539 
-
+![carte](resources/image20.png)
 Carta marina - Wikipedia 
 
  
@@ -154,15 +155,15 @@ Carta marina - Wikipedia
 
  * junaio (dead by apple), metaio (dead by apple), layar, wikitude, blippar  
 
-* superworld app  link
+* superworld app  [link](https://www.superworldapp.com/)
 
  
 
 -- 
 Open source  
 
-https://ourednik.info/polyharmonies/ar/ 
+* [polyharmonie](https://ourednik.info/polyharmonies/ar/)
 
-  
+  ![source](resources/image21.png)
 
  * 8thwall.org 

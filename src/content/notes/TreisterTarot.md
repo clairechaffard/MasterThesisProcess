@@ -10,8 +10,10 @@ tags: ["design research", "society pov"]
 ## Course by  Joël Vacheron
 
 Hexen 2.0 Tarot by Suzanne Treister | Pages of Hackney
+![tarot](resources/image5.png)
 
 Suzanne Treister's Hexen 2.0 Tarot | by Cynthia Giles | Tarot Ephemeral | Medium 
+![tarot](resources/image6.png)
 
 HEXEN 2.0 : 
 
@@ -20,7 +22,7 @@ Presents each card of the tarot as part of an entangled system to help imagine f
 These twenty-first century mutations are designed not so much for prophesy as to help us think our way through a techno-futurist present, and where it may lead us if we don’t learn to control it. 
 
 ----- 
-
+![9](resources/image7.png)
 The Nine of Swords
 
 - Traditional Meaning: often associated with fear and anxiety, about all the things that worry you and keep you up at night. Sometimes this card can be associated with trauma - one which may be shameful for you to confide with others about, and all the psychological responses that come from experiencing that trauma.
@@ -31,7 +33,7 @@ The Nine of Swords
 
 
 ----
-
+![5](resources/image8.png)
 The Five of Cups: 
 
 - Traditional Meaning: represents grief, deep disappointment, and focusing on emotional loss rather than remaining opportunities. This is a card which signifies loss as well as the painful challenges which stem from that particular loss.
@@ -41,7 +43,7 @@ The Five of Cups:
 - Modern Parallel: It refers to the interconnected histories of cybernetics, information technology, social engineering, counterculture, and systems of societal control. It suggests a dark warning : the total information transparency under the web might create collective psychological dread rather than true enlightenment.
 
 ---- 
-
+![2](resources/image9.png)
 The Two of wands:  
 
 - Traditional meaning: represents fear of the unknown, hesitation, indecision, or over-planning without taking action.  You might feel stuck in your comfort zone or afraid that your plans will fall apart. It encourages you to address your fears and stop delaying your next steps 

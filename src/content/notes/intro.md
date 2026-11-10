@@ -8,6 +8,7 @@ tags: ["starting point", "design research"]
 
 # Introduction of the course
 
+![intro](resources/image2.png)
 
 * Sir Christopher Frayling - 1993 
 
@@ -47,8 +48,9 @@ recognizable image, pattern, text embedded into paper or digital media to identi
 ## Reference: masters' thesis
 
 River Aesthetics - Peter Ha  
+![river](resources/image3.png)
 A lesson from the sea star - Ayoub Azzouzi
-
+![seastar](resources/image4.png)
  
 
  

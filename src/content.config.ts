@@ -1,5 +1,4 @@
-import { defineCollection, z } from 'astro:content';
-import { image } from 'astro:assets';
+import { defineCollection, image, z } from 'astro:content';
 
 const notes = defineCollection({
   type: 'content',

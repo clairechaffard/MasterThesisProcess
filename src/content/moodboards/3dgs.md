@@ -1,4 +1,5 @@
 ---
+title: "3DGS"
 description: "3DGS"
 images:
   - "resources/image2.png"

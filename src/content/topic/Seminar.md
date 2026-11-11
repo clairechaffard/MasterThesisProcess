@@ -8,9 +8,9 @@ tags: ["starting point", "seminar"]
 
 ### 4 key references central to your interest 
 - [MATIS work](https://www.micronaut.ch/copenhagen/) using technologies, computer science in service to art. 
-- [Sunset hotel vr xp](https://www.gillesjobin.com/en/creation-en/sunset-motel-vr-piece/): How can VR expand the language and experience of cinema ? Creating a universe which initially exists in the form of drawn into habitable images
 - [Cinema without frames](https://journals.sagepub.com/doi/10.1177/13548565251383405)
-- []()
+- [Sunset hotel vr xp](https://www.gillesjobin.com/en/creation-en/sunset-motel-vr-piece/): How can VR expand the language and experience of cinema ? Creating a universe which initially exists in the form of drawn into habitable images
+- [Res Natura](https://2026.giff.ch/en/film/res-natura/): I really like the visual the aspect on kind of teleporting someone in the world 
 
 ### map subject / question : 
 Exploring new forms of cinematic experiences through digital technologies.

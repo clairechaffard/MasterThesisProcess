@@ -1,4 +1,4 @@
-import { defineCollection, image, z } from 'astro:content';
+import { defineCollection, z } from 'astro:content';
 
 const notes = defineCollection({
   type: 'content',
@@ -40,7 +40,7 @@ const moodboards = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string().optional(),
-    images: z.array(image()).default([]),
+    images: z.array(z.string()).default([]),
     tags: z.array(z.string()).default([]),
   }),
 });

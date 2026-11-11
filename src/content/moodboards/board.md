@@ -2,7 +2,7 @@
 title: "Moodboard 1"
 description: "First inspiration"
 images:
-  - "/images/placeholder-01.jpg"
-  - "/images/placeholder-02.jpg"
+  - "resources/image.png"
+  - "resources/image1.png"
 tags: ["Fx", "graphics", "cinema"]
 ---

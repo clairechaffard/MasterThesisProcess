@@ -34,7 +34,7 @@ h1 span{color:#c45b3d}
 .entry-list article{padding:26px 0;border-top:1px solid #d9d7cf}
 .entry-list h2{font-size:28px;font-weight:500;margin:10px 0}
 .prose{max-width:720px;margin:9vh auto 15vh;line-height:1.8;font-size:16px}
-.prose h1{font-size:clamp(48px,7vw,82px);line-height:1.02}
+.prose h1{font-size:clamp(36px,5vw,56px);line-height:1.08}
 .prose h2{font-size:25px;font-weight:500;margin-top:48px}
 .prose p{color:#55534d}
 .prose img{display:block;width:auto;max-height:75vh;object-fit:contain;margin:1.5rem auto}

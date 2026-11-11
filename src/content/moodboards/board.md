@@ -1,5 +1,5 @@
 ---
-title: "Moodboard 1"
+title: "Res Natura"
 description: "First inspiration"
 images:
   - "./resources/image.png"

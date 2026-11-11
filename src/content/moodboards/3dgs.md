@@ -6,5 +6,5 @@ images:
   - "./resources/image3.png"
   - "./resources/image4.png"
   - "./resources/image5.png"
-tags: ["Fx", "graphics", "cinema"]
+tags: ["3d", "graphics"]
 ---

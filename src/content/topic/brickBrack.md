@@ -36,3 +36,10 @@ This is not a list of topics I have already connected into one project. It is a 
 - Dogs
 - Stars
 
+## Global thinking 
+
+Cinema and visual storytelling
+Photography and computational imaging
+Computer graphics and digital environments
+Immersive and interactive experiences
+The relationship between reality and imagination

@@ -40,3 +40,7 @@ Investigate new forms of immersive storytelling and spectatorship.
 
 - [Cinema without frames](https://journals.sagepub.com/doi/10.1177/13548565251383405) : 
 A study that examines how virtual reality (VR) cinema transforms spectatorship, embodiment, and narrative engagement through a specific ref
+
+
+
+Revealing things that we are not suppose to see 

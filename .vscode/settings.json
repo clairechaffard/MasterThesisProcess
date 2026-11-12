@@ -1,0 +1,6 @@
+{
+    "files.watcherExclude": {
+        "**/target/**": true
+    },
+    "fileTemplates.templates_dir": "C:/Users/chaff/OneDrive/CLAIREAD/help/master-thesis-archive/templates"
+}

@@ -1,0 +1,51 @@
+2026.11.11 16:10:28 INFO  Tracing is disabled for protocol LSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at c:\Users\chaff\OneDrive\CLAIREAD\help\master-thesis-archive\.metals\lsp.trace.json or C:\Users\chaff\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2026.11.11 16:10:30 INFO  logging to files C:\Users\chaff\OneDrive\CLAIREAD\help\master-thesis-archive\.metals\metals.log
+2026.11.11 16:10:30 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\chaff\OneDrive\CLAIREAD\help\master-thesis-archive' for client Visual Studio Code 1.145.2.
+2026.11.11 16:10:30 INFO  Memory monitor started
+2026.11.11 16:10:31 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.11.11 16:10:31 WARN  no build tool detected in workspace 'C:\Users\chaff\OneDrive\CLAIREAD\help\master-thesis-archive'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.11.11 16:10:32 WARN  Build server is not auto-connectable.
+nov. 11, 2026 4:16:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 11, 2026 4:18:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 11, 2026 4:21:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 11, 2026 4:21:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 11, 2026 4:21:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 11, 2026 4:21:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 11, 2026 4:21:37 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 11, 2026 4:21:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 11, 2026 4:21:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 11, 2026 4:21:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 11, 2026 4:21:57 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 11, 2026 4:24:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 11, 2026 5:30:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 12, 2026 2:42:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 12, 2026 2:43:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 12, 2026 2:43:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 12, 2026 2:50:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 12, 2026 2:50:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 12, 2026 2:50:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 12, 2026 2:50:37 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 12, 2026 2:50:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+nov. 12, 2026 2:50:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace

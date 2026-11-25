@@ -22,7 +22,7 @@ Touch as a cinematic language and memory of the senses
 ![blind legend](image.png)
 
 ## First question draft : 
-How can a cinematic scene generate real-time haptic mapping to enrich the emotional experience for all auiences, including deaf and blind viewers ? 
+How can a cinematic scene generate real-time haptic mapping to enrich the emotional experience for all audiences, including deaf and blind viewers ? 
 
 
 

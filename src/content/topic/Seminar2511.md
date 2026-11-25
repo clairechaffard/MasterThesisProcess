@@ -8,10 +8,10 @@ tags: ["first question draft", "seminar"]
 
 ## 3 key references : 
 
-- [SoundX](https://www.soundx.fr/en) : Vibration pack 
-https://www.sinfonietta.ch/gilets-vibrants/ 
+- [SoundX](https://www.soundx.fr/en) : Vibration pack
+https://www.tobs.ch/fr/now/article/musique-vibrante 
 
-In lausanne they propose it 
+[In lausanne they propose it ](https://www.sinfonietta.ch/gilets-vibrants/ )
 ![gilet](image-1.png)
   
 - [Article about haptic cinema](https://journals.openedition.org/entrelacs/485?lang=en)

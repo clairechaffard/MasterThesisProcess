@@ -6,8 +6,6 @@ excerpt: "Technologies as medium of reality"
 tags: ["Data learning", "machine learning"]
 ---
 
-# Alterated realities and real alternatives - by André Ourednik 
-
 [André Ourednik](https://ourednik.info/)
 Perspectives : - geography & GIS - Agent based modeling - Text & data mining - Philosophy 
 

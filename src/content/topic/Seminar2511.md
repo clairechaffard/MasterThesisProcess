@@ -9,9 +9,13 @@ tags: ["first question draft", "seminar"]
 ## 3 key references : 
 
 - [SoundX](https://www.soundx.fr/en) : Vibration pack 
-https://www.sinfonietta.ch/gilets-vibrants/ In lausanne they propose it 
+https://www.sinfonietta.ch/gilets-vibrants/ 
+
+In lausanne they propose it 
+![gilet](image-1.png)
   
 - [Article about haptic cinema](https://journals.openedition.org/entrelacs/485?lang=en)
+  
 Touch as a cinematic language and memory of the senses
 
 - [Blind Legend](https://tontonstudio.com/references/serious_games/a_blind_legend/)
@@ -21,14 +25,18 @@ Touch as a cinematic language and memory of the senses
 How can a cinematic scene generate real-time haptic mapping to enrich the emotional experience for all auiences, including deaf and blind viewers ? 
 
 
+
+
+--- 
+
 ### Vocabulary : 
 
 Haptic means relating to or based on the sense of touch. It often refers to using physical sensations—like vibrations, pulses, or resistance. 
 
 ### All ref used during research : 
 
+- https://casco.art/activity/optic-to-haptic-cinema-oh-cinema/
 - binaural audio technology https://tontonstudio.com/references/serious_games/a_blind_legend/
-
 - About haptic visuality in film — Hannaleena Hauru : https://www.hannaleenahauru.com/essays/haptic
 - Brouillard créatif : stratégie et pratique du cinéma haptique – Les médiathécaires néolouvanistes
     https://mediathecaire.wordpress.com/2013/01/23/brouillard-creatif-strategie-et-pratique-du-cinema-haptique/

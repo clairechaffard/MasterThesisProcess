@@ -1,5 +1,5 @@
 ---
-title: "Seminar"
+title: "Seminar 04 november"
 date: 2026-11-04
 category: "Research on Interests"
 excerpt: "Consolidate interests"
